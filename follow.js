@@ -10,5 +10,5 @@ arr.forEach((v, i) => {
         } else {
             console.log('Você já segue este usuário.')
         }
-    }, i * 10000);
+    }, i * 30000);
 });
