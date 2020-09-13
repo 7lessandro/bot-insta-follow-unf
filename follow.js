@@ -1,3 +1,6 @@
+//Open a user's followers tab
+//run in console
+
 let contador = 0
 let arr = document.querySelectorAll('ID da classe SEGUIR')
 
