@@ -1,3 +1,6 @@
+//Open the tab of the people you follow
+//run in console
+
 let contador = 0
 
 document.querySelectorAll('ID da classe SEGUINDO').forEach((item, index)=> {
