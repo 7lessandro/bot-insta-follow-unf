@@ -1,3 +1,5 @@
+//abra a publicação e run
+
 const next = document.querySelector('a.coreSpriteRightPaginationArrow')
 var counter = 0
 
