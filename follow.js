@@ -1,12 +1,9 @@
-//Open a user's followers tab
-//run in console
-
 let contador = 0
-let arr = document.querySelectorAll('ID da classe SEGUIR')
+let arr = document.querySelectorAll('.sqdOP.L3NKy.y3zKF')
 
 arr.forEach((v, i) => {
     setTimeout(() => {
-        if (!v.classList.contains ('ID da classe SEGUINDO')) {
+        if (!v.classList.contains ('._8A5w5')) {
             v.click()
             contador++
             console.log(`Você já seguiu ${contador} pessoas =)`)

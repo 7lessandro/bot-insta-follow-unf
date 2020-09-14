@@ -1,15 +1,12 @@
-//Open the tab of the people you follow
-//run in console
-
 let contador = 0
 
-document.querySelectorAll('ID da classe SEGUINDO').forEach((item, index)=> {
+document.querySelectorAll('._8A5w5').forEach((item, index)=> {
 
     setTimeout(() => {
 
         if (item.innerText == 'Seguindo') {
             item.click();
-            document.querySelectorAll('ID da classe DEIXAR DE SEGUIR').forEach((item, index) => {
+            document.querySelectorAll('.-Cab_').forEach((item, index) => {
                 if (item.innerText == 'Deixar de seguir') {
                     item.click();
                     contador++
